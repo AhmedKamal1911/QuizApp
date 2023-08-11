@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/master.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="quiz-app">
+      <div class="quiz-info">
+        <div class="category">Category : <span></span></div>
+        <div class="count">Questions Count : <span></span></div>
+      </div>
+      <div class="quiz-area"></div>
+      <div class="answers-area">
+        <!-- <div class="answer">
+          <input type="radio" id="answer_1" name="questions" checked />
+          <label for="answer_1">To Make Test Bold</label>
+        </div> -->
+      </div>
+      <button class="submit-button">Submit Answer</button>
+      <div class="bullets">
+        <div class="spans"></div>
+        <div class="countdown">
+          <span class="minutes"></span> : <span class="seconds"></span>
+        </div>
+      </div>
+      <div class="results"></div>
+    </div>
+    <audio src="./audio/abogabal.mp3" preload="auto" id="success"></audio>
+    <audio src="./audio/cow.mp3" preload="auto" id="wrong"></audio>
+    <script src="./js/master.js"></script>
+  </body>
+</html>
