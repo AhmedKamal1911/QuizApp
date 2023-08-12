@@ -7,10 +7,11 @@ body {
 
 .quiz-app {
   margin: 20px auto;
-  width: 800px;
+  width: 90%;
   background-color: #f8f8f8;
   padding: 15px;
 }
+
 .quiz-app .quiz-info {
   display: flex;
   background-color: #fff;
